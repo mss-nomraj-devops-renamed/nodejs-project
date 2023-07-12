@@ -16,7 +16,7 @@ pipeline {
 
         stage('CHECKOUT CODE') {
             steps {
-                git 'https://github.com/Praveeen1996/node-app.git'
+                git 'https://github.com/Praveeen1996/nodejs-app-mss.git'
             }
         }
         stage('NODEJS BUILD CODE') {
